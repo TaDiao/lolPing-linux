@@ -21,11 +21,11 @@ Compared with the exact PR head above, the initial release changes were limited 
 1. Add `-lXext` to the Linux helper link command in [`native/hook-helper/build.sh`](native/hook-helper/build.sh), fixing the missing X11 extension library during packaging.
 2. Add repository-specific attribution, release instructions and Linux package notes to the English and Chinese READMEs and [`docs/linux-release.md`](docs/linux-release.md).
 3. Remove the upstream Windows/macOS automatic release workflow from this Linux edition, so its tag does not publish unrelated installers.
-4. Build and publish the experimental x86-64 `.deb` and AppImage from this source. These are packaging outputs, not a new Linux port.
+4. Build and publish the experimental x86-64 `.deb` and AppImage from this source. These are packaging outputs, not a new Linux port. The Linux package configuration now includes the original `LICENSE` and this attribution file inside both installers.
 
 The repository's later documentation updates clarify the Linux release process and this attribution. The source repository was uploaded as a snapshot, so its Git history does not include the original upstream commits; the exact source commits above provide that provenance.
 
-中文：相对于上述 PR 版本，本仓库补上 Linux 链接参数 `-lXext`，增加本仓库的中英文署名与发布说明，移除原版 Windows/macOS 自动发布工作流，并构建、发布实验性的 x86-64 `.deb` 和 AppImage。后续文档更新进一步澄清发布流程和来源。由于本仓库以源码快照上传，Git 提交历史未包含上游提交；上方列出的提交可供核对来源。
+中文：相对于上述 PR 版本，本仓库补上 Linux 链接参数 `-lXext`，增加本仓库的中英文署名与发布说明，移除原版 Windows/macOS 自动发布工作流，并构建、发布实验性的 x86-64 `.deb` 和 AppImage。新版 Linux 安装包内也加入原始 `LICENSE` 和本署名文件。后续文档更新进一步澄清发布流程和来源。由于本仓库以源码快照上传，Git 提交历史未包含上游提交；上方列出的提交可供核对来源。
 
 ## Code and game assets / 代码与游戏素材
 

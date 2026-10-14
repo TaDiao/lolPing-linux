@@ -1,8 +1,10 @@
-# Linux 0.5.1 (experimental)
+# Linux 0.5.1-linux.2 (experimental)
 
 This community build is based on [lolPing by Danrui Meng](https://github.com/darrenprx/lolPing) and the [Linux X11 port in PR #60](https://github.com/darrenprx/lolPing/pull/60). It includes a fix to link the X11 helper with `libXext` on Linux.
 
 The Linux port was contributed by [995916639a-coder](https://github.com/995916639a-coder). [Attribution and exact changes](https://github.com/TaDiao/lolPing-linux/blob/main/ATTRIBUTION.md) lists the source commits and distinguishes this edition's small build, documentation and release changes from the PR author's work. This is an independent community release.
+
+This release replaces `v0.5.1-linux.1`. Both installers now contain the original MIT `LICENSE` and `ATTRIBUTION.md` inside the package, alongside the public source and release notices.
 
 ## Downloads
 
