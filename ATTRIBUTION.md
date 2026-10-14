@@ -5,8 +5,9 @@
 - **Original application:** [darrenprx/lolPing](https://github.com/darrenprx/lolPing), by **Danrui Meng**. Its source code is distributed under the [MIT license](LICENSE), whose original copyright notice is retained here.
 - **Linux X11 port:** [upstream pull request #60](https://github.com/darrenprx/lolPing/pull/60), authored by **[995916639a-coder](https://github.com/995916639a-coder)**. This repository was prepared from that PR's head commit [`b50a72662e802a793646468c8ad239b8c0604c8b`](https://github.com/darrenprx/lolPing/commit/b50a72662e802a793646468c8ad239b8c0604c8b), based on upstream commit [`f24a51e5a11c2b31dab72d89a571cc4025ad3c98`](https://github.com/darrenprx/lolPing/commit/f24a51e5a11c2b31dab72d89a571cc4025ad3c98). The PR was not merged when this edition was prepared.
 - **This community edition:** maintained in [TaDiao/lolPing-linux](https://github.com/TaDiao/lolPing-linux). It is independent of the original project and is not an official upstream release. The original author and the Linux PR author retain credit for their respective work.
+- **AI assistance:** **ChatGPT (OpenAI)** assisted with the additional Linux link fix, release packaging and attribution documentation for this community edition. It did not create the original lolPing application or the Linux X11 port in PR #60; credit and copyright for those works remain with their respective creators.
 
-中文：本项目基于 Danrui Meng 的原版 lolPing，以及 995916639a-coder 提交的实验性 Linux X11 适配 PR #60。原项目版权声明和 MIT 许可证保留在 [`LICENSE`](LICENSE) 中。本仓库是独立的社区发布，不代表原作者或 PR 作者发布。
+中文：本项目基于 Danrui Meng 的原版 lolPing，以及 995916639a-coder 提交的实验性 Linux X11 适配 PR #60。原项目版权声明和 MIT 许可证保留在 [`LICENSE`](LICENSE) 中。本仓库由 TaDiao 维护；ChatGPT（OpenAI）协助补充链接参数、打包和编写署名说明，并非原版应用或 Linux PR 的作者。本仓库是独立的社区发布，不代表原作者或 PR 作者发布。
 
 ## What came from the Linux PR / Linux PR 已完成的工作
 

@@ -30,6 +30,15 @@
 
 Pings and emotes show up in whole-screen capture, so friends watching your Discord or OBS stream see them too. lolPing is a desktop toy: it doesn't read, change or hook into League itself.
 
+## Contributors
+
+- [Danrui Meng](https://github.com/darrenprx) — original lolPing application and source code.
+- [995916639a-coder](https://github.com/995916639a-coder) — experimental Linux X11 port in [PR #60](https://github.com/darrenprx/lolPing/pull/60).
+- [TaDiao](https://github.com/TaDiao) — maintainer of this community Linux release.
+- **ChatGPT (OpenAI)** — assisted with the additional Linux link fix, packaging, and attribution documentation; it did not create the original application or PR #60.
+
+See [attribution and exact changes](ATTRIBUTION.md) for the source commits and scope of this edition.
+
 ## Linux (experimental)
 
 This source tree includes an **X11 Linux port**, with AppImage and Debian package targets. It requires a genuine X11 session, XInput 2.1/XTest and a compositor. Wayland sessions are not supported yet. Build with Node.js 22.12+, a C++20 compiler and `libx11-dev libxi-dev libxtst-dev`, then run `npm ci` and `npm run dist:linux`.

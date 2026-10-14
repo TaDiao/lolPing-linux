@@ -30,6 +30,15 @@
 
 信号和表情会出现在全屏录制/共享画面里，所以在 Discord 或 OBS 上看你直播的朋友也能看到。lolPing 只是一个桌面小玩具：它不会读取、修改或注入英雄联盟本身。
 
+## 贡献者
+
+- [Danrui Meng](https://github.com/darrenprx)：原版 lolPing 应用及源码作者。
+- [995916639a-coder](https://github.com/995916639a-coder)：[PR #60](https://github.com/darrenprx/lolPing/pull/60) 中实验性 Linux X11 适配的作者。
+- [TaDiao](https://github.com/TaDiao)：本社区 Linux 版本的维护者。
+- **ChatGPT（OpenAI）**：协助补充 Linux 链接参数、打包及编写署名说明；原版应用和 PR #60 的 Linux 适配并非由 ChatGPT 创作。
+
+准确的源码提交及本版本改动见[来源与修改说明](ATTRIBUTION.md)。
+
 ## 安装
 
 ### Windows
