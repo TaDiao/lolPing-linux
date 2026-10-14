@@ -145,6 +145,10 @@
       "icon": "build/icon.png",
       "category": "Utility",
       "artifactName": "lolPing-${version}-${arch}.${ext}",
+      "extraFiles": [
+        "LICENSE",
+        "ATTRIBUTION.md"
+      ],
       "extraResources": [
         {
           "from": "native/hook-helper/build/hook-helper",

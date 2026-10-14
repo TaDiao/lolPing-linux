@@ -2,6 +2,8 @@
 
 > **Community Linux edition.** This repository is based on [Danrui Meng's lolPing](https://github.com/darrenprx/lolPing) and the [experimental Linux X11 port (PR #60)](https://github.com/darrenprx/lolPing/pull/60). It adds a Linux build fix. The original source copyright and MIT license are preserved. Riot Games assets are not covered by that license. This is an independent build, not an official upstream release.
 
+**[Original authors, exact source commits, and changes made in this edition](ATTRIBUTION.md).** The Linux port in PR #60 is credited to [995916639a-coder](https://github.com/995916639a-coder). Riot Games does not endorse or sponsor this free community project; game assets remain subject to [Riot's policy](https://www.riotgames.com/en/legal).
+
 **Linux downloads:** [AppImage and Debian package](https://github.com/TaDiao/lolPing-linux/releases/latest). A genuine X11 session is required; Wayland is not supported. See [Linux instructions](docs/linux.md).
 
 <p align="center">

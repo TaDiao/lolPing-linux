@@ -2,6 +2,8 @@
 
 > **社区 Linux 版本。** 本仓库基于 [Danrui Meng 的 lolPing](https://github.com/darrenprx/lolPing) 和[实验性 Linux X11 适配 PR #60](https://github.com/darrenprx/lolPing/pull/60)，并修复了 Linux 构建时的链接问题。保留原项目的版权声明与 MIT 许可证；Riot Games 的素材不属于 MIT 许可范围。本版本不是上游官方发布。
 
+**[原作者、准确源码提交与本版本具体改动](ATTRIBUTION.md)。** PR #60 的 Linux 适配由 [995916639a-coder](https://github.com/995916639a-coder) 完成。本项目免费供社区使用，Riot Games 不认可或赞助本项目；游戏素材仍须遵守 [Riot 的使用政策](https://www.riotgames.com/en/legal)。
+
 **Linux 下载：**[AppImage 与 Debian 安装包](https://github.com/TaDiao/lolPing-linux/releases/latest)。必须使用真正的 X11 会话，暂不支持 Wayland。详见 [Linux 说明](docs/linux.md)。
 
 <p align="center">
